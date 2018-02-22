@@ -1,3 +1,4 @@
+#Π17041-Python 3.6.4
 import random
 
 def triplet_sum(array,req_sum):
