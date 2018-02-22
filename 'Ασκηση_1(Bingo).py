@@ -17,7 +17,7 @@ for k in range(0,1000):
 		players.append(numbers)
 
 	Bingo = []
-	#δημηιουργια λιστας αριθμων που αναγγελονται απο υπολογιστη 
+	#δημιουργια λιστας αριθμων που αναγγελονται απο υπολογιστη 
 	while stoptheloop == False:
 		Bingo_number = random.randint(1,80)
 		#χωρις επαναληψη
@@ -33,7 +33,7 @@ for k in range(0,1000):
 					players[i][j] = 0
 
 
-
+                #οταν ο παιχτης πετυχαινει το νουμερο η μεταβλητη αυξανεται κατα 1
 		for i in range(0,100):
 			sum = 0
 			for j in range(0,5):
