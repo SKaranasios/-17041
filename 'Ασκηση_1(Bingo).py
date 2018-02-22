@@ -1,7 +1,8 @@
+#Π17041-Python 3.6.4
 import random
-arithoimexribingo=0
 	
 for k in range(0,1000):
+	arithoimexribingo=0
 	tries = 0
 	players = []
 	stoptheloop= False
